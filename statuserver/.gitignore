@@ -1,0 +1,48 @@
+# 1. VS 相关（.vs、编译目录、本地配置）
+.vs/
+x64/
+Debug/
+Release/
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.psess
+
+# 2. 编译/构建产物（中间文件、可执行文件）
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.log
+*.tmp
+*.tlog
+*.lastbuildstate
+
+# 3. Protobuf 生成文件（如果不想提交生成的代码，可保留这部分；如果想提交，可注释掉）
+# message.grpc.pb.cc
+# message.grpc.pb.h
+# message.pb.cc
+# message.pb.h
+
+# 4. 第三方库 DLL（你目录里的这些运行时库）
+libcrypto-3-x64.dll
+libssl-3-x64.dll
+mysqlcppconn8-2-vs14.dll
+mysqlcppconn-9-vs14.dll
+
+# 5. 配置文件（如果 config.ini 是本地配置，不想上传就保留；如果是模板文件，可以去掉这行）
+config.ini
+
+# 6. 系统/IDE 无关文件
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.~*
